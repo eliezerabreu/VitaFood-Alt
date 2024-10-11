@@ -1,5 +1,7 @@
 import reflex as rx 
 from VitaFood_Alt.styles.colors import Color, Textcolor
+import VitaFood_Alt.styles.styles as styles
+
 
 def card_nutritions() -> rx.Component:
     return rx.box(
@@ -9,8 +11,8 @@ def card_nutritions() -> rx.Component:
                     background= "center/cover url('/Nutritionist_card.webp')",
                     width="40%",
                     height="400px",
-                    margin="2em",
-                    border_radius="16px",
+                    margin=styles.size.BIG.value,
+                    border_radius=styles.size.DEFAULT.value,
                     box_shadow="3px 3px 5px rgba(0, 0, 0, 0.4)"
                     ),
                 rx.box(
@@ -20,15 +22,15 @@ def card_nutritions() -> rx.Component:
                             "At VitaFood, we are dedicated to helping you achieve optimal health through a comprehensive approach. With personalized guidance from our nutritionists, you’ll receive a health plan tailored to your specific needs, complemented by high-quality supplements from the Tropical Oasis brand. Additionally, our Pranzo restaurant offers delicious and nutritious options that align with your meal plan. This unique combination creates the perfect synergy for caring for your health in a complete and effective way.",
                             color=Textcolor.BODY.value,
                             max_width="420px",
-                            padding_top="15px"
+                            padding_top=styles.size.DEFAULT.value
                             ),
                         width="100%",
                         height="400px",
                         border_style="solid",
                         border_width="2px",
-                        border_radius="16px",
-                        margin="2em",
-                        padding="2em",
+                        border_radius=styles.size.DEFAULT.value,
+                        margin=styles.size.BIG.value,
+                        padding=styles.size.BIG.value,
                         align="center",
                         box_shadow="3px 3px 5px rgba(0, 0, 0, 0.4)"
 

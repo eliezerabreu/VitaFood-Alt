@@ -13,13 +13,13 @@ def header() -> rx.Component:
                     height="100%"),
                 rx.box(
                     rx.hstack(
-                        navbar_link("Home", "/#"),
-                        navbar_link("About", "/#"),
-                        navbar_link("Contact", "/#"),
-                        navbar_link("FAQ", "/#"),
-                        navbar_link("Nutritions", "/#"),
-                        navbar_link("Pranzo", "/#"),
-                        navbar_link("Tropical Oasis", "/#"),
+                        navbar_link("Home", "/#", "#203534"),
+                        navbar_link("About", "/#", "#203534"),
+                        navbar_link("Contact", "/#", "#203534"),
+                        navbar_link("FAQ", "/#", "#203534"),
+                        navbar_link("Nutritions", "/#", "#203534"),
+                        navbar_link("Pranzo", "/#", "#203534"),
+                        navbar_link("Tropical Oasis", "/#", "#203534"),
                         rx.menu.root(
                             rx.menu.trigger(
                                 rx.button(

@@ -2,6 +2,7 @@ import reflex as rx
 from VitaFood_Alt.views.header import header
 from VitaFood_Alt.views.hero import hero
 from VitaFood_Alt.views.Card_Nutritions import card_nutritions
+from VitaFood_Alt.views.video_section import video_section
 from VitaFood_Alt.views.footer import footer
 import VitaFood_Alt.styles.styles as styles
 
@@ -13,6 +14,7 @@ def index() -> rx.Component:
         header(),
         hero(),
         card_nutritions(),
+        video_section(),
         footer(),
         gap="0"
     )
